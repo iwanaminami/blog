@@ -1,2 +1,4 @@
 collections:
   - services
+
+markdown: kramdown
