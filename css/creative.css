@@ -92,6 +92,10 @@ aside {
     color: #f05f40;
 }
 
+.navbar-brand img{
+    height: 100%;
+}
+
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
     color: #eb3812;
