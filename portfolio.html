@@ -15,7 +15,7 @@ title: Portfolio
                 {% for post in site.posts %}
                 <div class="col-lg-4 col-sm-6">
                     <a href="{{ post.url }}" class="portfolio-box">
-                        <img {% if post.image %}src="{{ post.image }}"{% else %}src="img/portfolio/1.jpg"{% endif %} class="img-responsive" alt="">
+                        <img {% if post.image %}src="{{ post.image }}"{% else %}src="/img/portfolio/1.jpg"{% endif %} class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
