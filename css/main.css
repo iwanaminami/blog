@@ -19,6 +19,7 @@ img{
 
 pre code{
   white-space: pre;
+  word-wrap: normal;
 }
 
 .bg-primary a{
