@@ -40,10 +40,10 @@ Jekyll+Github Pagesで公開しているページのなかで、Liquidの `for` 
 
 **コード**
 
-```
+```html
 {% raw %}
 {% for post in site.posts limit:5 %}
-{{ post.title }}
+<p>{{ post.title }}</p>
 {% endfor %}
 {% endraw %}
 ```
@@ -60,11 +60,11 @@ Jekyll+Github Pagesで公開しているページのなかで、Liquidの `for` 
 このforループの中で全記事中の何番目なのかを示すために以下のようにします。
 
 **コード**
-```
+```ruby
 {% raw %}
 {% assign test_post_num = site.posts | size %}
 {% for post in site.posts limit:5 %}
-[{{ test_post_num | plus: test_dec_var }}] {{ post.title }}
+<p>[{{ test_post_num | plus: test_dec_var }}] {{ post.title }}</p>
 <div style="display: none">{% decrement test_dec_var %}</div>
 {% endfor %}
 {% endraw %}
@@ -82,7 +82,7 @@ Jekyll+Github Pagesで公開しているページのなかで、Liquidの `for` 
 
 {% raw %} `{% decrement test_dec_var %}` {% endraw %}は読まれるたびに１ずつ減っていきます。読まれるたびに出力されるので `<div>` タグで囲って `style="display: none"` として見えないようにしています。
 
-```
+```html
 {% raw %}
 {{ test_dec_var2  }}
 {% decrement test_dec_var2 %}

@@ -2,3 +2,4 @@ collections:
   - services
 
 markdown: kramdown
+highlighter: rouge

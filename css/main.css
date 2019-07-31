@@ -1,0 +1,30 @@
+:root{
+  --primary-color: #F05F40;
+  --white-color: #FFFFFF;
+  --gray-color: #cccccc;
+  --dark-color: #333333;
+}
+
+h1, h2{
+  font-weight: bold;
+}
+
+.bg-dark{
+  background-color: var(--dark-color);
+}
+
+pre code{
+  white-space: pre;
+}
+
+.bg-primary a{
+  color: var(--dark-color);
+}
+
+.bg-primary a:hover{
+  color: var(--gray-color);
+}
+
+.bg-primary hr{
+  border-color: var(--white-color);
+}
