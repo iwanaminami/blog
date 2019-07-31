@@ -60,7 +60,7 @@ Jekyll+Github Pagesで公開しているページのなかで、Liquidの `for` 
 このforループの中で全記事中の何番目なのかを示すために以下のようにします。
 
 **コード**
-```ruby
+```html
 {% raw %}
 {% assign test_post_num = site.posts | size %}
 {% for post in site.posts limit:5 %}
