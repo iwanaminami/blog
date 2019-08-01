@@ -6,7 +6,7 @@ image: '/img/portfolio/4.jpg'
 tags:
 - jekyll
 - markdown
-introduction: Liquidのforループで業績一覧のようなものを作りたいときに、降順で番号をつけたかったのでそのメモ
+description: Liquidのforループで業績一覧のようなものを作りたいときに、降順で番号をつけたかったのでそのメモ
 categories: memo
 ---
 

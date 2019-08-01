@@ -2,8 +2,12 @@ collections:
   - services
 
 title: Shoya Iwanami's note
-email: iwanamishoya[at]gmail.com
+email: iwanamishoya@gmail.com
+email-at: iwanamishoya[at]gmail.com
+phone: 092-802-4299
 organizer: 岩波翔也
+website: "https://shoyaiwanami.com"
+author: Shoya Iwanami
 affiliation: 九州大学数理生物学研究室
 address: 〒819-0395 福岡市西区元岡744 九州大学伊都キャンパス ウエスト１号館C-911
 description: >- # this means to ignore newlines until "baseurl:"

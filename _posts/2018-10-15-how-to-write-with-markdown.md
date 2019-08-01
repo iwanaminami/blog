@@ -6,7 +6,7 @@ image: '/img/portfolio/4.jpg'
 tags:
 - jekyll
 - markdown
-introduction: 記事を投稿するときに使用するmarkdown形式の記述の仕方についてのメモ。
+description: 記事を投稿するときに使用するmarkdown形式の記述の仕方についてのメモ。
 ---
 
 記事を投稿するときに使用するmarkdown形式の記述の仕方についてのメモ。
@@ -63,7 +63,7 @@ print 'hoge'
             print 'hoge'
         end
     end
-    
+
 class Hoge
     def hoge
         print 'hoge'
