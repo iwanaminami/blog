@@ -16,7 +16,7 @@
     </title>
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- Custom Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="/css/animate.min.css" type="text/css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/creative.css" type="text/css">
+    <!--<link rel="stylesheet" href="/css/creative.css" type="text/css">-->
     <link rel="stylesheet" href="/css/main.css" type="text/css">
     <link rel="stylesheet" href="/css/syntax.css" type="text/css">
 
@@ -75,65 +75,67 @@
 
     <body id="page-top">
 
-        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/"><img src="/img/logo_note.png" alt="shoya iwanami's note"></a>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <a class="navbar-brand" href="#">
+    <img src="/img/logo_note.png" alt="" width="200px">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li  class="active" >
-                    <a href="/">Home</a>
-                </li>
-                <li >
-                    <a href="/about/">About</a>
-                </li>
-                <li >
-                    <a href="/portfolio/">Portfolio</a>
-                </li>
-                <li >
-                    <a href="/note/">Note</a>
-                </li>
-                <li >
-                    <a href="/contact/">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container-fluid -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home<span class="sr-only"> (current)</span></a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="/about/">About</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="/portfolio/">Portfolio</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="/note/">Note</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="/contact/">Contact</a>
+      </li>
+    </ul>
+  </div>
 </nav>
 
 
         <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1 class="editable">
-                    岩波翔也のノート
-                </h1>
-                <hr />
-                <p class="editable">一つの記事になりそうなことがあれば書いてみます。まずはサイトの構成を考え中。</p>
-                <a href="/about/" class="btn btn-primary btn-xl">Find Out More</a>
+  <div class="vw-100 vh-100 toppage_back">
+    <div class="container vh-100">
+      <div class="row h-100">
+        <div class="col-12 h-100">
+          <div class="d-table h-100 w-100">
+            <div class="d-table-cell align-middle text-center">
+              <h1 class="editable">
+                岩波翔也のノート
+              </h1>
+              <hr>
+              <p class="editable">一つの記事になりそうなことがあれば書いてみます。まずはサイトの構成を考え中。</p>
+              <a href="/about/" class="btn btn-primary btn-xl">Find Out More</a>
             </div>
+          </div>
         </div>
-    </header>
+      </div>
+    </div>
+  </div>
+</header>
 
 
         <footer id="" class="bg-dark" style="height: 200px">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center pt-5 pb-5">
-        <div class="" style="display: inline-block; vertical-align: middle; height: 200px; width: 100%">
-          <p class="" style="line-height: 200px; margin-bottom: 0;">Shoya Iwanami's Blog  •  Copyright © 2018- Shoya Iwanami</p>
+  <div class="container h-100">
+    <div class="row h-100">
+      <div class="col-12  h-100 text-center">
+        <div class="w-100 h-100 d-table">
+          <div class="d-table-cell align-middle text-center">
+            <p class="m-auto text-light"><a href="https://shoyaiwanami.com">岩波翔也のウェブサイト</a></p>
+            <p class="m-auto text-light" >Shoya Iwanami's Blog  •  Copyright © 2018- Shoya Iwanami</p>
+          </div>
         </div>
       </div>
     </div>

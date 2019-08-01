@@ -3,30 +3,32 @@ layout: default
 title: Contact
 ---
 
-<section class="bg-dark">
-    <div class="text-center">
-        <h1>Contact</h1>
+<section class="bg-dark" style="height: 300px">
+  <div class="d-table w-100 h-100">
+    <div class="d-table-cell align-middle">
+      <div class="text-center mt-5 text-light">
+          <h1>Contact</h1>
+      </div>
     </div>
+  </div>
 </section>
 
-
-
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
-                    <hr class="primary">
-                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
-                </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                    <p>{{ site.phone }}</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:{{ site.email }}">{{ site.email-at }}</a></p>
-                </div>
+<section class="bg-primary" id="about">
+    <div class="container pt-5 pb-5">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 text-center text-light">
+              <h2 class="section-heading">Let's Get In Touch!</h2>
+              <hr class="primary">
+              <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+            </div>
+            <div class="col-lg-4 offset-lg-2 text-center">
+                <i class="fa fa-phone fa-3x wow bounceIn"></i>
+                <p>{{ site.phone }}</p>
+            </div>
+            <div class="col-lg-4 text-center">
+                <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                <p><a href="mailto:{{ site.email }}">{{ site.email-at }}</a></p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
