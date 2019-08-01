@@ -80,6 +80,9 @@ hr {
     border-width: 3px;
 }
 
+.text-primary{
+  color: var(--primary-color)!important;
+}
 
 .bg-primary hr{
   border-color: var(--white-color);
