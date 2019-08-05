@@ -10,8 +10,6 @@ description: Liquidのforループで業績一覧のようなものを作りた�
 categories: memo
 ---
 
-タグ：{% for tag in page.tags %} {{ tag }}{% endfor %}
-
 *2019年7月31日時点での情報なのでの私の理解なので、もっといい方法があったら更新します。*
 
 ---
