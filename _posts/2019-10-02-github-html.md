@@ -33,3 +33,5 @@ categories: labwebsite first
 4. リポジトリの設定からGithub Pagesの機能を有効にする
 
 これだけで公開できます。
+
+{% include calieto.html %}
