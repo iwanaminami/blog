@@ -1,0 +1,19 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <a class="navbar-brand" href="/lab-website/">
+    <img src="/img/logo_labweb.png" alt="研究者ウェブサイト" width="100px">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item {% if page.url == "/lab-website/" %}active{% endif %}">
+        <a class="nav-link" href="/lab-website/">Home{% if page.url == "/lab-website/" %}<span class="sr-only"> (current)</span>{% endif %}</a>
+      </li>
+      <li class="nav-item {% if page.url == "/lab-website/contents/" %}active{% endif %}">
+        <a class="nav-link" href="/lab-website/contents/">Contents{% if page.url == "/about/" %}<span class="sr-only"> (current)</span>{% endif %}</a>
+      </li>
+    </ul>
+  </div>
+</nav>

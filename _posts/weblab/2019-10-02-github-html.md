@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-labweb
 title: Githubを使ったウェブサイトの公開
 date: 2019-10-02 10:00:00 +0900
 image: '/img/portfolio/4.jpg'
