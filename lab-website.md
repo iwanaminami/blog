@@ -2,7 +2,7 @@
 layout: post-labweb
 title: 研究者のためのウェブサイト制作
 date: 2019-10-02 10:00:00 +0900
-image: '/img/portfolio/4.jpg'
+image: '/img/logo_labweb.png'
 tags:
 - laboratory
 - website
