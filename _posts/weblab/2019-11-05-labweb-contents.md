@@ -1,7 +1,7 @@
 ---
 layout: post-labweb
 title: コンテンツ一覧 | 研究者のためのウェブサイト制作
-date: 2019-11-05 10:00:00 +0900
+date: 2019-11-05 12:00:00 +0900
 image: '/img/logo_labweb.png'
 tags:
 - website
