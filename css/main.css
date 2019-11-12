@@ -146,3 +146,8 @@ pre code{
   background-size: cover;
   -o-background-size: cover;
 }
+
+/*MathJax*/
+.MJXc-display{
+  overflow-x: auto;
+}
