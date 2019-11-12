@@ -1,6 +1,6 @@
 ---
 layout: post-labweb
-title: Githubを使ったウェブサイトの公開 | 研究者・研究室のためのウェブサイト制作
+title: "Githubを使ったウェブサイトの公開"
 date: 2019-10-02 10:00:00 +0900
 last_modified_at: 2019-11-12 17:00:00 +0900
 image: '/img/logo_labweb.png'

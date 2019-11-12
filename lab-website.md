@@ -53,9 +53,8 @@ description: 研究成果・最新情報などの発信の場としてのウェ�
 
 ### コンテンツ
 
-{% for sub in site.categories.labwebsite %}
-- [{{ sub.title }}]({{ sub.url }})
-{% endfor %}
+{% for pages in site.categories.labwebsite %}
+- [{{ pages.title }}]({{ pages.url }}) {% endfor %}
 
 ---
 
