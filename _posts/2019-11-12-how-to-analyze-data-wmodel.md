@@ -13,6 +13,7 @@ categories: research
 permalink: /research/dataanalysis/
 ---
 
+{{ page.description }}
 
 ---
 
@@ -20,10 +21,10 @@ permalink: /research/dataanalysis/
 
 
 {% for  post in site.tags.BrdU %}
-### - {{ post.title }}
+### [- {{ post.title }}]({{ post.url }})
 
-{{ post.description }}
-
+{{ post.description }}  
+**更新日：{{ post.last_modified_at | date: "%Y年%m月%d日" }}** | {{ post.date | date: "投稿日：%Y年%m月%d日" }}  
 [[more]]({{post.url}})
 
 {% endfor %}

@@ -23,6 +23,14 @@ h1, h2{
   font-weight: bold;
 }
 
+h2{
+  margin-bottom: 2rem;
+}
+
+h3{
+  margin-top: 2rem;
+}
+
 .bg-primary h1, h2, h3, h4, h5, h6{
   color: var(--white-color);
 }
@@ -105,12 +113,19 @@ hr {
 /*markdown*/
 .highlighter-rouge{
   background-color: #fff;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 2px;
-  padding-bottom: 2px;
   border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
+code.highlighter-rouge{
+  padding: 2px 5px;
+  margin: 0 2px;
+}
+.highlighter-rouge div.highlight{
+  border-radius: 10px;
+  padding: 20px;
+}
+
 
 pre{
   margin: 0;
