@@ -42,7 +42,8 @@ $$
 ## Rを用いた最適化
 
 Rの基本的な知識は  
-[Rの基本](/research/2019/11/13/using-r/)
+
+[Rの基本 \| Shoya Iwanami's note](https://note.shoyaiwanami.com/research/2019/11/12/using-r/){: .embedly-card}
 
 ### ライブラリの読み込みや標準の設定の準備
 
@@ -132,7 +133,9 @@ data <- meandata
 ```
 
 データファイルの準備の詳細は  
-[Rでの時系列データの準備](/research/2019/11/12/dataloading/)
+
+[Rでの時系列データの準備 \| Shoya Iwanami's note](https://note.shoyaiwanami.com/research/2019/11/12/dataloading/){: .embedly-card}
+
 
 
 ---
