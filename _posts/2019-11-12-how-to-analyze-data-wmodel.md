@@ -19,12 +19,9 @@ permalink: /research/dataanalysis/
 
 ## BrdUラベリングデータとターンオーバーの推定
 
-
 {% for  post in site.tags.BrdU %}
-### [- {{ post.title }}]({{ post.url }})
 
-{{ post.description }}  
-**更新日：{{ post.last_modified_at | date: "%Y年%m月%d日" }}** | {{ post.date | date: "投稿日：%Y年%m月%d日" }}  
-[[more]]({{post.url}})
+[{{ post.title }}](https://note.shoyaiwanami.com{{ post.url }}){: .embedly-card}
+**更新日：{{ post.last_modified_at | date: "%Y年%m月%d日" }}** | {{ post.date | date: "投稿日：%Y年%m月%d日" }}
 
 {% endfor %}

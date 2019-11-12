@@ -43,7 +43,7 @@ $$
 
 Rの基本的な知識は  
 
-[Rの基本 \| Shoya Iwanami's note](https://note.shoyaiwanami.com/research/2019/11/12/using-r/){: .embedly-card}
+[Rの基本 \| Shoya Iwanami's note](https://note.shoyaiwanami.com/research/2019/11/13/using-r/){: .embedly-card}
 
 ### ライブラリの読み込みや標準の設定の準備
 
