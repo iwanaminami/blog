@@ -64,10 +64,10 @@ a{
 /* hr */
 hr {
     max-width: 200px;
-    border-color: var(--primary-color);
-    border-width: 2px;
+    border-color: #000000;
+    border-width: 0.8px;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 
@@ -368,10 +368,13 @@ nav ul li.site-title img{
 .post_container p{
   font-size: 14px;
 }
-
+.post_container li{
+  font-size: 14px;
+}
 .post_container a{
   color: #7f7fff;
 }
+
 
 .post_container a:hover{
   color: #c1c1ff;
