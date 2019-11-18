@@ -1,24 +1,22 @@
 ---
-layout: default
+layout: page
+title: 岩波翔也のノート
 ---
 
-<header>
-  <div class="vw-100 vh-100 toppage_back">
-    <div class="container vh-100">
-      <div class="row h-100">
-        <div class="col-12 h-100">
-          <div class="d-table h-100 w-100">
-            <div class="d-table-cell align-middle text-center text-primary">
-              <h1 class="editable">
-                岩波翔也のノート
-              </h1>
-              <hr>
-              <p class="editable">一つの記事になりそうなことがあれば書いてみます。まずはサイトの構成を考え中。</p>
-              <a href="/about/" class="btn btn-primary btn-xl">詳しく知る</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</header>
+<section>
+  <p class="">一つの記事になりそうなことがあれば書いてみます。まずはサイトの構成を考え中。</p>
+  <hr class="">
+</section>
+
+<section class="" id="about">
+  <h2 class="">{{ site.title }}について</h2>
+  <h3>著者</h3>
+  <p class="">
+    {{ site.author }}
+  </p>
+  <p class=""><a href="{{ site.website }}">ウェブサイト</a></p>
+  <h3>所属</h3>
+  <p class="">{{ site.affiliation }}</p>
+  <p class="">{{ site.description }}</p>
+  <a href="/note" class="">始めましょう!</a>
+</section>

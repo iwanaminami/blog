@@ -1,30 +1,15 @@
 ---
-layout: default
+layout: page
 title: Note
 ---
-<section class="bg-dark" style="height: 300px">
-  <div class="d-table w-100 h-100">
-    <div class="d-table-cell align-middle">
-      <div class="text-center mt-5 text-light">
-          <h1>Note</h1>
-      </div>
-    </div>
-  </div>
-</section>
 
-<section class="bg-primary" id="about">
-    <div class="container pt-5 pb-5">
-        <div class="row">
-            <div class="col-lg-8 offset-lg-2 text-light">
-              <ul style="">
-                 {% for post in site.posts %}
-                   <li>
-                     <a href="{{ post.url }}">{{ post.title }}</a>
-                     - {{ post.date | date: "%d %B %Y" }}
-                   </li>
-                 {% endfor %}
-              </ul>
-            </div>
-        </div>
-    </div>
+<section class="" id="about">
+  <ul style="">
+     {% for post in site.posts %}
+       <li>
+         <a href="{{ post.url }}">{{ post.title }}</a>
+         - {{ post.date | date: "%d %B %Y" }}
+       </li>
+     {% endfor %}
+  </ul>
 </section>

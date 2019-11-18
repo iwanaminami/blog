@@ -1,28 +1,23 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-  <a class="navbar-brand" href="/">
-    <img src="/img/logo_note.png" alt="" width="200px">
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item {% if page.url == "/" %}active{% endif %}">
-        <a class="nav-link" href="/">Home{% if page.url == "/" %}<span class="sr-only"> (current)</span>{% endif %}</a>
-      </li>
-      <li class="nav-item {% if page.url == "/about/" %}active{% endif %}">
-        <a class="nav-link" href="/about/">About{% if page.url == "/about/" %}<span class="sr-only"> (current)</span>{% endif %}</a>
-      </li>
-      <li class="nav-item {% if page.url == "/note/" %}active{% endif %}">
-        <a class="nav-link" href="/note/">Note{% if page.url == "/note/" %}<span class="sr-only"> (current)</span>{% endif %}</a>
-      </li>
-      <li class="nav-item {% if page.url == "/research/dataanalysis/" %}active{% endif %}">
-        <a class="nav-link" href="/research/dataanalysis/">Special{% if page.url == "/research/dataanalysis/" %}<span class="sr-only"> (current)</span>{% endif %}</a>
-      </li>
-      <li class="nav-item {% if page.url == "/lab-website/" %}active{% endif %}">
-        <a class="nav-link" href="/lab-website/">LabWeb{% if page.url == "/lab-website/" %}<span class="sr-only"> (current)</span>{% endif %}</a>
-      </li>
-    </ul>
+<div id="nav-drawer" class="nav_grobal">
+  <div class="site-title">
+    <a href="/"><img src="/img/logo_note.png" alt="Shoya Inwamai's note" width=""></a>
   </div>
-</nav>
+  <input id="nav-input" type="checkbox" class="nav-unshown">
+  <label id="nav-open" for="nav-input"><span></span></label>
+  <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+  <div id="nav-content">
+    <div class="wrapper">
+      <nav>
+        <ul>
+          <li class="site-title"><a href="/"><img src="/img/logo_note.png" alt="Shoya Inwamai's note"></a></li>
+          <li {% if page.url == "/" %} class="current"{% endif %}><a href="/">Home</a></li>
+          <li {% if page.url == "/about/" %} class="current"{% endif %}><a href="/about/">About</a></li>
+          <li {% if page.url == "/note/" %} class="current"{% endif %}><a href="/note/">Note</a></li>
+          <li {% if page.url == "/research/dataanalysis/" %} class="current"{% endif %}><a href="/research/dataanalysis/">Special</a></li>
+          <li {% if page.url == "/lab-website/" %} class="current"{% endif %}><a href="/lab-website/">LabWeb</a></li>
+        </ul>
+      </nav>
+    </div>
+    <label id="nav-close-button" for="nav-input"><span></span></label>
+  </div>
+</div>

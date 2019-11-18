@@ -1,5 +1,5 @@
 ---
-layout: labweb
+layout: default
 ---
 
 <article class="">
@@ -10,8 +10,6 @@ layout: labweb
   <section class="" id="">
     <div class="post_wrapper">
       <div class="post_container">
-        <p>タグ：{% for tag in page.tags %} #{{ tag }}{% endfor %}</p>
-        {% include toc.html html=content %}
         {{ content }}
       </div>
     </div>

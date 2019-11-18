@@ -1,0 +1,10 @@
+<div class="card_container clearfix">
+  <h4 class="card_title"><a href="{{ include.url }}">{{ include.title }}</a></h4>
+  <a href="{{ include.url }}">
+    <div class="card_image">
+      <img src="{{ include.image }}" alt="">
+    </div>
+  </a>
+  <p>{{ include.description }}</p>
+  <p><strong>更新：{{ include.last_modified_at | date: "%Y年%m月%d日" }}</strong> | {{ include.date | date: "投稿：%Y年%m月%d日" }}</p>
+</div>

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: 数理モデルと時系列データの解析
 date: 2019-11-12 10:00:00 +0900
 image: '/img/covers/brduestimation.png'
@@ -21,7 +21,6 @@ permalink: /research/dataanalysis/
 
 {% for  post in site.tags.BrdU %}
 
-[{{ post.title }}](https://note.shoyaiwanami.com{{ post.url }}){: .embedly-card}
-**更新日：{{ post.last_modified_at | date: "%Y年%m月%d日" }}** | {{ post.date | date: "投稿日：%Y年%m月%d日" }}
+{% include card.html url=post.url image=post.image title=post.title description=post.description last_modified_at=post.last_modified_at date=post.date %}
 
 {% endfor %}

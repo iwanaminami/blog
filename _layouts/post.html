@@ -3,24 +3,16 @@ layout: default
 ---
 
 <article class="">
-  <header class="bg-dark" style="height: 300px">
-    <div class="d-table w-100 h-100">
-      <div class="d-table-cell align-middle">
-        <div class="text-center mt-5 text-light">
-            <h1>{{ page.title }}</h1>
-        </div>
-      </div>
-    </div>
+  <header class="post_header">
+    <h1>{{ page.title }}</h1>
   </header>
 
-  <section class="bg-primary" id="contact">
-    <div class="container pt-5 pb-5">
-      <div class="row">
-        <div class="col-12">
-          <p>タグ：{% for tag in page.tags %} #{{ tag }}{% endfor %}</p>
-          {% include toc.html html=content %}
-          {{ content }}
-        </div>
+  <section class="" id="">
+    <div class="post_wrapper">
+      <div class="post_container">
+        <p>タグ：{% for tag in page.tags %} #{{ tag }}{% endfor %}</p>
+        {% include toc.html html=content %}
+        {{ content }}
       </div>
     </div>
   </section>
