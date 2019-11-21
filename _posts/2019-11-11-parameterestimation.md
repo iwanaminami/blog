@@ -137,6 +137,26 @@ data <- meandata
 
 [Rでの時系列データの準備 \| Shoya Iwanami's note](https://note.shoyaiwanami.com/research/2019/11/12/dataloading/){: .embedly-card}
 
+### データのプロット
+
+まずは、データを図にしてみるところから始める。どのようなデータを解析するのか、どのような構造になっているのかを知ることができる。読み込んだデータと元のデータに間違いがないかどうかも確認できる。
+
+ggplotの使い方は  
+[ggolotの初歩（作成予定）]()
+
+```R
+plt <- ggplot() +
+  geom_area(data=dbrdu,aes(x=time,y=value), fill="lightgray") +
+  geom_line(data = lowdata,aes(x=time,y=value,group=id),lwd=0.5,color="black") +
+  geom_line(data=meandata,aes(x=time,y=value),lwd=3,color="black") +
+  geom_point(data=meandata,aes(x=time,y=value),size=8) +
+  scale_y_continuous(limits = c(0,50)) +
+  theme_classic(base_size = 30,base_family = "Helvetica")
+
+ggsave(filename = "./output/data_plot.png", plot = plt, width = 12, height = 8)
+```
+
+![data fig](/img/brdu_data_plot.png){: width="50%"}
 
 
 ---
