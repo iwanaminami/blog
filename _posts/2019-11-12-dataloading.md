@@ -40,6 +40,18 @@ categories: research
 | Protein B | 2 | 3 | 4 | 6 | 5 |
 | Protein C | 2 | 3 | 4 | 6 | 5 |
 
+### data.frameでデータの準備
+
+data.frameの詳細についてはDocumentationや日本語で解説してあるページを参照
+
+[data\.frame function \| R Documentation](https://www.rdocumentation.org/packages/base/versions/3.6.1/topics/data.frame)
+
+[R\-Source](http://cse.naro.affrc.go.jp/takezawa/r-tips/r/39.html)
+
+```R
+data.frame(x=c(1,2,3),y=c("mouse1","mouse2","mouse3"))
+```
+とすれば、`x`という要素に`1,2,3`というデータ、`y`にはそれに対応する`mouse1, mouse2, mouse3`というマウスのid的なものが入る。  
 
 
 ---
