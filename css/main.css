@@ -73,7 +73,7 @@ hr {
 
 /*markdown*/
 .highlighter-rouge{
-  background-color: #fff;
+  background-color: #f8f8f8;
   border-radius: 5px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -95,6 +95,13 @@ pre{
 pre code{
   white-space: pre;
   word-wrap: normal;
+}
+
+blockquote{
+  margin-inline-start: 10px;
+  margin-inline-end: 40px;
+  padding-inline-start: 40px;
+  border-left: 5px #bbbbbb solid;
 }
 
 
