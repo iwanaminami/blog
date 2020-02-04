@@ -19,6 +19,10 @@ footer{
   background-color: #ffeaea;
 }
 
+footer *{
+  margin-right: 10px;
+  margin-left: 10px;
+}
 
 
 h1, h2{
@@ -437,4 +441,35 @@ nav ul li.site-title img{
   content: "";
   display: block;
   clear: both;
+}
+
+/*calieto*/
+.calieto_banner{
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.calieto_banner a:hover{
+  opacity: .7;
+}
+
+.calieto_banner_lg{
+  max-width: 96%;
+}
+
+@media (max-width: 800px) {
+  .calieto_banner_lg{
+    display: none;
+  }
+}
+
+.calieto_banner_sm{
+  width: 96%;
+}
+
+@media (min-width: 801px) {
+  .calieto_banner_sm{
+    display: none;
+  }
 }
