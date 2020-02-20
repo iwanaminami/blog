@@ -364,13 +364,13 @@ nav ul li.site-title img{
   background-color: #ffffff;
 }
 .post_container{
-  max-width: 1200px;
+  max-width: 1000px;
   padding: 20px 20px;
   margin: auto;
   background-color: #ffffff;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
   .post_container{
     padding: 20px 10px;
   }

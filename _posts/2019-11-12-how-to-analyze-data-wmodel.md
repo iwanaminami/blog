@@ -19,7 +19,7 @@ permalink: /research/dataanalysis/
 
 ## BrdUラベリングデータとターンオーバーの推定
 
-{% for  post in site.tags.BrdU %}
+{% for  post in site.categories.research %}
 
 {% include card.html url=post.url image=post.image title=post.title description=post.description last_modified_at=post.last_modified_at date=post.date %}
 

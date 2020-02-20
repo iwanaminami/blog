@@ -3,7 +3,7 @@ layout: post
 title: 【R tips】ggplot2でラベルを好きな順番に並べる方法
 date: 2020-02-17 03:00:00 +0900
 last_modified_at: 2020-02-17 03:00:00 +0900
-image: '/img/portfolio/1.png'
+image: '/img/portfolio/1.jpg'
 tags:
 - research
 - R
