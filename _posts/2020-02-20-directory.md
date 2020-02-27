@@ -3,7 +3,7 @@ layout: post
 title: 【R tips】相対パス、ルートパス、ホームディレクトリなど
 date: 2020-02-20 03:00:00 +0900
 last_modified_at: 2020-02-20 03:00:00 +0900
-image: '/img/portfolio/1.jpg'
+image: 
 tags:
 - research
 - R
