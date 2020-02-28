@@ -23,6 +23,7 @@ categories: research
 ```R
 > confint(result, level = 0.95)
 ```
+`level`はデフォルトが`0.95`、つまり95％信頼区間。
 
 推定値と標準誤差からの計算も
 
