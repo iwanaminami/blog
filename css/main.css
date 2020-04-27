@@ -460,6 +460,11 @@ nav ul li.site-title img{
   }
 }
 
+.ads_wrapper{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 
 /*MathJax*/
 .MJXc-display{

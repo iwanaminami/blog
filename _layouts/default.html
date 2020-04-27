@@ -10,7 +10,12 @@
       <main>
         {{ content }}
       </main>
-      {% include ads.html %}
+      <div class="post_container">
+        <div class="ads_wrapper">
+          {% include ads.html %}
+        </div>
+      </div>
+
       {% include footer.html %}
 
       {% include calietofooter.html %}
